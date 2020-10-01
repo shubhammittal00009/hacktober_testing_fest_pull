@@ -19,6 +19,7 @@ def modularInverse(a, m):
         return x % m 
 
 def affine_encrypt(text, key):
+    temp=1
     ''' 
     C = (a*P + b) % 26 
     '''
