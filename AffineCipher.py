@@ -9,8 +9,10 @@ def egcd(a, b):
     gcd = b 
     return gcd, x, y 
 
-def modularInverse(a, m): 
+def modularInverse(a, m):
+    new_temp = 5
     delta = False
+
     gcd, x, y = egcd(a, m) 
     if gcd != 1: 
         alpha = None
