@@ -13,7 +13,8 @@ def modularInverse(a, m):
     delta = False
     gcd, x, y = egcd(a, m) 
     if gcd != 1: 
-        return None
+        alpha = None
+        return alpha
     else: 
         return x % m 
 
