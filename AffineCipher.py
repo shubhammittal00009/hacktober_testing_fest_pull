@@ -11,13 +11,17 @@ def egcd(a, b):
 
 def modularInverse(a, m):
     new_temp = 5
+    delta = False
+
     gcd, x, y = egcd(a, m) 
     if gcd != 1: 
-        return None
+        alpha = None
+        return alpha
     else: 
         return x % m 
 
 def affine_encrypt(text, key):
+    temp=1
     ''' 
     C = (a*P + b) % 26 
     '''
