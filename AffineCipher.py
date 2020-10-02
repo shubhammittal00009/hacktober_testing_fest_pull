@@ -9,6 +9,9 @@ def egcd(a, b):
     gcd = b 
     return gcd, x, y 
 
+def tempo():
+    return 1
+
 def modularInverse(a, m):
     new_temp = 5
     delta = False
