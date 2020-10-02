@@ -10,7 +10,7 @@ def egcd(a, b):
     return gcd, x, y 
 
 def modularInverse(a, m):
-    new_temp = 5
+    new_temp = 4
     delta = False
 
     gcd, x, y = egcd(a, m) 
