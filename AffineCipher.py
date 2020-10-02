@@ -39,6 +39,7 @@ def affine_decrypt(cipher, key):
 
 text = str(input("Enter Text : "))
 key = [17, 20]
+qwert = [67, 24]
 
 affine_encrypted_text = affine_encrypt(text, key) 
 print("Encrypted Text: " + affine_encrypted_text) 
