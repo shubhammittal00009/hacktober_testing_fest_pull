@@ -43,5 +43,7 @@ key = [17, 20]
 affine_encrypted_text = affine_encrypt(text, key) 
 print("Encrypted Text: " + affine_encrypted_text) 
 
+print("Just Comment")
+
 decryptedText = affine_decrypt(affine_encrypted_text, key)
 print("Decrypted Text: " +  decryptedText) 
